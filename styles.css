@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    padding: 1%;
+    margin: 2%;
+    background-color: aquamarine;
+    border-radius: 20px;
+    border-style: inset;
+    border-color: #023e8a;
+}
+
+.resume {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 1%;
+    display: flex;
+    background-color: white;
+    text-align: center;
+    overflow: auto;
+}
+
+.resume .cvleft {
+    inline-size: min-content;
+    width: 50%;
+    padding: 4%;
+    height: auto;
+    background: #023e8a;
+    color: #caf0f8;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+
+.resume .cvleft .profileimg {
+    width: 50%;
+    height: auto;
+    border: inset 7px;
+    border-top-color: #0bb5f4;
+    border-left-color: #0bb5f4;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-radius: 100%;
+}
+
+.resume .cvleft h1 {
+    font-size: 300%;
+}
+
+.resume .cvleft h3 {
+    font-size: 150%;
+}
+
+.resume .cvleft table {
+    font-size: 125%;
+    padding-left: 10%;
+    text-align: left !important;
+}
+
+.resume .cvleft a {
+    text-decoration: underline;
+    text-decoration-color: #0096FF;
+    color: white;
+}
+
+.resume .cvleft li {
+    font-size: 125%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left !important;
+}
+
+.resume .cvleft .highlight {
+    box-shadow: #0096FF 0px 0px 5px;
+}
+
+.resume .cvleft .education {
+    padding-left: 0 !important;
+}
+
+.resume .cvright {
+    inline-size: min-content;
+    width: 50%;
+    height: auto;
+    padding: 4%;
+    color: #023e8a;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+
+.resume .cvright h1 {
+    font-size: 300%;
+}
+
+.resume .cvright h3 {
+    font-size: 150%;
+}
+
+.resume .cvright table {
+    font-size: 125%;
+    padding-left: 10%;
+    text-align: left !important;
+}
+
+.resume .cvright a {
+    text-decoration: underline;
+    text-decoration-color: #0096FF;
+    color: #023e8a;
+}
+
+.resume .cvright li {
+    font-size: 125%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left !important;
+}
+
+.resume .cvright .highlight {
+    box-shadow: black 0px 0px 5px;
+}
+
+.resume .cvright hr {
+    color: black;
+}
+
+.resume .cvright .project {
+    padding-left: 0 !important;
+}
